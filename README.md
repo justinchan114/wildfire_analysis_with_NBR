@@ -19,3 +19,8 @@ To study effect of wildfire, the difference in NBR value (dNBR) was calculated f
 
 ## Results
 Using numpy array, we were able to determine the no. of pixels that were burnt (with dNBR >0.1) easily, and it was found that more than 80% of the AOI (equivalent to 44.4km^2 out of 54km^2), were burnt during the event.
+![image](https://github.com/justinchan114/wildfire_analysis_with_NBR/assets/98078893/b54ad0bd-da8f-4114-a6aa-e1e43c568444)
+
+The change in NBR (dNBR) is defined as below, according to UN-SPIDER Knowledge Portal:
+![dNBR](https://un-spider.org/sites/default/files/table+legend.PNG)
+
