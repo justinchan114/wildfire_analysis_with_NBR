@@ -14,3 +14,8 @@ And the calculation of NBR has the formula below:
 ![Calculation of NBR](https://un-spider.org/sites/default/files/NBR_formula.jpg)
 
 In short, a high NBR value indicates healthy vegetation while a low value indicates bare ground and recently burnt areas. You may refer to https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio for more details.
+
+To study effect of wildfire, the difference in NBR value (dNBR) was calculated from the rasters with GDAL. It is noted that the majority of pixels in the result of NBR_Prefire - NBR_Postfire has a positive value, indicating vegetation were burnt in the area.
+
+## Results
+Using numpy array, we were able to determine the no. of pixels that were burnt (with dNBR >0.1) easily, and it was found that more than 80% of the AOI (equivalent to 44.4km^2 out of 54km^2), were burnt during the event.
